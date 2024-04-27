@@ -15,6 +15,3 @@ This task involves creating a service that performs the following:
     It constructs an internal call to another service named ADD_USER_SERVICE located at http://localhost:8081/appName2/addUserInfo.
     This internal call is intended to register the user's information.
 
-Additional Notes:
-
-Consider using environment variables for sensitive information like the base URL or URI in the application.properties file for improved security.
